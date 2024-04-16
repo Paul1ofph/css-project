@@ -576,9 +576,8 @@ h1 span{
     gap: 5px;
     margin-top: 1rem;
     border-radius: 8px;
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
- }
+    border: 1px solid rgb(72, 71, 71);
+}
 
 
 .figure1 .button1{
