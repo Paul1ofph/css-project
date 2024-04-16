@@ -40,7 +40,11 @@ button{
     aspect-ratio: 1;
 }
 
-a{
+.navsection ul a{
+    font-size: 19px;
+}
+
+.navsection a{
     display: flex;
     align-items: center;
     font-size: 30px;
@@ -193,7 +197,7 @@ h1 span{
     }
 }
 
-.button{
+.button5{
     animation-delay: 700ms;
     background-color: transparent;
     font-size: 15px;
@@ -210,7 +214,7 @@ h1 span{
     border: 1px solid black;
 }
 
-.button:hover{
+.button5:hover{
     scale: 1.05;
     background: black;
     color: #f3f3f3;
@@ -313,31 +317,36 @@ h1 span{
     margin: 0 auto;
     background: white;
     color: black;
+    
 }
 
-.one .shop p{
+.one button p{
     color: transparent;
 }
 
-.one .shop1{
-    background-image: url(/images/appstore-removebg-preview.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
-.one .shop2{
-    background-image: url(/images/playstore-removebg-preview.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
- .shop{
+ .one button{
     padding: 10px;
     gap: 5px;
     margin-top: 1rem;
     border-radius: 8px;
  }
 
- .shop:hover{
+
+.one .button1{
+    background-image: url(/images/appstore-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.one .button2{
+    background-image: url(/images/playstore-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+ .one button:hover{
     scale: 1.05;
  }
 
@@ -557,21 +566,35 @@ h1 span{
     text-align: left;
 }
 
-.shop p{
+.figure1 button p{
     color: transparent;
 }
 
-.shop1{
+
+ .figure1 button{
+    padding: 10px;
+    gap: 5px;
+    margin-top: 1rem;
+    border-radius: 8px;
+ }
+
+
+.figure1 .button1{
     background-image: url(/images/appstore-removebg-preview.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.shop2{
+.figure1 .button2{
     background-image: url(/images/playstore-removebg-preview.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+ .figure1 button:hover{
+    scale: 1.05;
+ }
 
 .aside3{
     width: 100%;
@@ -589,6 +612,10 @@ h1 span{
 
 .footer-col{
     width: 25%;
+}
+
+.footer-col .links ion-icon{
+    font-size: 30px;
 }
 
 .footer-col h4{
