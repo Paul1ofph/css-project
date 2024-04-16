@@ -576,6 +576,8 @@ h1 span{
     gap: 5px;
     margin-top: 1rem;
     border-radius: 8px;
+    border-top: 1px solid #f3f3f3;
+    border-left: 1px solid #f3f3f3;
  }
 
 
